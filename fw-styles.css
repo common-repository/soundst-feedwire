@@ -1,0 +1,78 @@
+#fl_field{
+	float: left;
+	height: 200px;
+	width: 600px;
+	resize: none;
+}
+.fw_update_area{
+	clear: both;
+	width: 600px;
+}
+#fw_update_feeds{
+	float: right;
+	margin-top: 5px;
+}
+.fw_update_area .update_box{
+	line-height: 24px;
+	border-bottom: 1px solid #21759B;
+	padding-top: 5px;
+	position: relative;
+}
+.fw_update_area .was_updated{
+/*	position: absolute;*/
+	line-height: 24px;
+	display: none;
+	right: 220px;
+}
+.fw_update_area .update_box .update_but{
+	margin-left: 10px;
+	float:right;
+}
+.fw_update_area .update_box .last_update,
+.fw_update_area .update_box .update_status{
+	float: right;
+	width: 140px;
+	text-align: center;
+	height: 24px;
+}
+.fw_update_area .update_box .update_status{
+	font-weight: bold;
+}
+.fw_update_area .update_box .success,
+.fw_update_area .update_box .success .description{
+	color: green;
+}
+.fw_update_area .update_box .warning,
+.fw_update_area .update_box .warning .description{
+	color: orange;
+}
+.fw_update_area .update_box .failure,
+.fw_update_area .update_box .failure .description{
+	color: brown;
+}
+.fw_update_area .update_box .update_status .processing{
+	color: grey;
+}
+.fw_update_area .update_box .t_name{
+	font-weight: bold;
+}
+.edit-space{
+	margin-bottom: 10px;
+}
+.edit-name{
+	float: left;
+	width: 100px;
+}
+#fw_source_field,
+#fw_url_field,
+#fw_media_field{
+	width: 400px;
+}
+.clear{
+	clear: both;
+	zoom: 1;
+}
+#icon-FWPluginPage{
+	background-position: -552px -5px;
+	background-image: url(/wp-admin/images/icons32.png?ver=20121105);
+}
